@@ -1,0 +1,9 @@
+:root{--bg:#030806;--panel:#08120f;--ink:#f2fff9;--muted:#a7b8b0;--blue:#18d98b;--cyan:#45f0a6;--line:rgba(69,240,166,.22)}
+body{background:#030806;color:var(--ink)}
+.hero{background:radial-gradient(circle at 85% 25%,#0e3e2b 0,transparent 36%),radial-gradient(circle at 18% 75%,#082219 0,transparent 32%)}
+.header.scrolled{background:rgba(3,8,6,.9)}
+.hero h1 span,.section-kicker,.logo span,.float-card i,.contact-row i,.date{color:#27e494!important}
+.primary{background:linear-gradient(120deg,#12bc76,#25e29d)}
+.button:hover,.socials a:hover{border-color:#36efa4;box-shadow:0 0 18px #20d98c55}
+.about-card{background:linear-gradient(135deg,#071a12,#0b2119 55%,#10291f);border-color:#32df9677}.about-card::before{color:#50f2ad;border-color:#25db91}.about-card p:first-of-type::after{color:#e8fff5}
+.skill-card,.projects-grid .project-card{background:linear-gradient(150deg,#091a14,#07100d 60%,#0a281c)!important;border-color:#2acb8666}.skill-card:nth-child(3n),.projects-grid .project-card:nth-child(3n){background:linear-gradient(150deg,#0a2319,#07100d 60%,#103624)!important}.skill-card h3 i{color:#3cf4aa}.skill-tags span,.tags span{color:#bcefd7;background:#0b2a1d;border-color:#278b6266}.project-visual{background-color:#0a2b1d}.projects-grid .project-card:hover{border-color:#42f4ad;box-shadow:0 24px 50px #1ad88844}.timeline{border-color:#36e89c77}.timeline-item{background:linear-gradient(125deg,#082017,#07130e)!important;border-color:#2cce8766}.timeline-item .dot{background:#3cf4aa;box-shadow:0 0 0 5px #082017,0 0 16px #3cf4aa}.timeline-item strong{color:#a8f2ce}.cv-download{background:#18c87c}.shade{background:#05100b}

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+RAG_Chatbot/.env
+RAG_Chatbot/streamlit-*.log
+.streamlit/secrets.toml
