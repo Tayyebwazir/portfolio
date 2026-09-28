@@ -16,6 +16,14 @@ setTimeout(() => {
   const ragButton = document.querySelector('.rag-assistant');
   const actionRow = document.querySelector('.actions');
   if (ragButton && actionRow) actionRow.append(ragButton);
+  const contactForm = document.querySelector('.contact-panel form');
+  contactForm?.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const values = new FormData(contactForm);
+    const subject = `Portfolio contact from ${values.get('name') || 'a visitor'}`;
+    const body = `Name: ${values.get('name') || ''}\nEmail: ${values.get('email') || ''}\n\n${values.get('message') || ''}`;
+    window.location.href = `mailto:ullahtayyeb19@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  }, true);
   const assistantShell = document.querySelector('.assistant-shell');
   ragButton?.addEventListener('click', (event) => {
     event.preventDefault();
