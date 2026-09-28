@@ -4,6 +4,7 @@ langchain-groq>=0.2.0
 langchain-community>=0.3.0,<0.4.0
 langchain-huggingface
 sentence-transformers
+torchvision
 faiss-cpu
 pypdf
 python-dotenv
