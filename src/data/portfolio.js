@@ -17,11 +17,12 @@ export const projects = [
   ['Multi-Tool Agentic AI System', 'fa-robot', 'Modular AI agent with tools and APIs for autonomous task automation and real-time decisions.', ['LangChain', 'LangGraph', 'FastAPI', 'Groq'], 'https://github.com/Tayyebwazir/Multi-tool-Agent-', '/multi-tool-agent.png'],
   ['Market Research Agent with Live Web Search', 'fa-chart-line', 'Autonomously collects, analyses, and summarizes current market intelligence from the web.', ['LangChain', 'Groq', 'FastAPI', 'Streamlit'], 'https://github.com/Tayyebwazir/Market-Research-Agent-with-Live-Web-Search', '/market-research-agent.png'],
   ['Multi-Tool Agent & Multi-Agent Platform', 'fa-diagram-project', 'Coordinates specialist agents and tools to solve complex multi-step workflows.', ['Agentic AI', 'LangGraph', 'FastAPI', 'Multi-Agent'], 'https://github.com/Tayyebwazir/Multi_agent_coding_assisstant', '/coding-assistant.png'],
-  ['AI Travel Planning Assistant', 'fa-plane-departure', 'AI travel planning assistant that creates smart journeys with CrewAI and Ollama.', ['CrewAI', 'Ollama', 'AI Agents'], 'https://github.com/Tayyebwazir/AI-Travel-Planning-Assistant', '/travel-planner.png']
+  ['AI Travel Planning Assistant', 'fa-plane-departure', 'AI travel planning assistant that creates smart journeys with CrewAI and Ollama.', ['CrewAI', 'Ollama', 'AI Agents'], 'https://github.com/Tayyebwazir/AI-Travel-Planning-Assistant', '/travel-planner.png'],
+  ['Real-Time Video Analytics', 'fa-video', 'Production-ready video analytics system for detecting and tracking cars and people, with object IDs, traffic counts, dwell time, ROI zones, and live visual analytics.', ['YOLOv8', 'OpenCV', 'Object Tracking', 'Streamlit'], 'https://github.com/Tayyebwazir/Real-Time-Video-Analytics', '/real-time-video-analytics.png']
 ];
 
 export const experience = [
-  ['Present · 6 months', 'AI/ML Engineer', 'YBIX · Lahore, Pakistan', 'Currently working at YBIX as an AI/ML Engineer, building AI and machine-learning solutions.'],
+  ['Present · 1 year', 'AI/ML Engineer', 'YBIX · Lahore, Pakistan', 'Currently working at YBIX as an AI/ML Engineer, building AI and machine-learning solutions.'],
   ['Professional experience', 'AI & NLP Engineer', 'ITSOLERA Pvt. Ltd. · Pakistan', 'Built conversational AI chatbots, RAG pipelines, and multi-tool agent systems.'],
   ['2025 · 3 months', 'Full AI Course Training', 'AI Training Program', 'Completed intensive hands-on training across AI, machine learning, deep learning, NLP, and generative AI.']
 ];
